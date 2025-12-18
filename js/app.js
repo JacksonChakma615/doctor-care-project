@@ -10,7 +10,7 @@ const mobileMenuLinks = document.querySelectorAll('#mobile-menu a[href^="#"]');
 document.addEventListener('DOMContentLoaded', () => {
    
     // setDefaultActiveLink();
-    handleScroll();
+    handleScroll(); 
     window.addEventListener('scroll', handleScroll);
 
     if (burger.length && menu.length) {

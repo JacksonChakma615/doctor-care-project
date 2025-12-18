@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 });
 
-
+// new update
 function setActiveLink(sections, navLinks) {
     let index = sections.length;
 

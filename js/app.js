@@ -10,6 +10,7 @@ const mobileMenuLinks = document.querySelectorAll('#mobile-menu a[href^="#"]');
 document.addEventListener('DOMContentLoaded', () => {
    
     // setDefaultActiveLink();
+    
     handleScroll(); 
     window.addEventListener('scroll', handleScroll);
 
